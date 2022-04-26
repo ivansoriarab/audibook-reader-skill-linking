@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <title>Your Skill</title>
+  </head>
+  <body>
+    <div>
+      <p>Welcome to the skill</p>
+      <p>Click on the button to continue</p>
+    </div>
+    <script language="javascript" type="text/javascript">
+      var urlParameter = window.location.search.substr(1);
+    </script>
+    <a href="https://accounts.google.com/o/oauth2/v2/auth?access_type=offline&amp;"
+      onclick="location.href=this.href+urlParameter;return false;">
+      Login
+    </a>
+  </body>
+</html>
